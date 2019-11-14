@@ -1,0 +1,8 @@
+system-messages:
+  prefix: '&c> '
+  not-a-player: You have to be a player to use this command.
+  no-permission: You have no permission to use this command.
+  invalid-arguments: Invalid command arguments. Something went wrong..
+  invalid-sub-command: No sub command ^COMMAND^ found.
+  invalid-name: No project ^PROJECTNAME^ found.
+  invalid-message: Invalid to do item. Could not add ^MESSAGE^ to project ^PROJECTNAME^.

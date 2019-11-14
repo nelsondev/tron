@@ -1,0 +1,14 @@
+siege:
+  # ARENAS
+  arenas:
+    - name: arena1
+      spawn-blue:
+        world: world
+        x: 0
+        y: 0
+        z: 0
+      spawn-red:
+        world: world
+        x: 0
+        y: 0
+        z: 0

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScratchReloaded:jar">
+    <output-path>$PROJECT_DIR$/bin/artifacts</output-path>
+    <root id="archive" name="ScratchReloaded.jar">
+      <element id="module-output" name="Scratch" />
+    </root>
+  </artifact>
+</component>

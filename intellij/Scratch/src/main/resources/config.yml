@@ -1,0 +1,91 @@
+#
+# -- Scratch Configuration --
+#
+#
+# Welcome to the Scratch configuration. Everything is formatted in .yml format. Some things MAY or MAY not be commented
+# before hand. Lets say we have the value:
+#
+#track-stats: true
+#
+# commented without a space before hand. That is a function for this plugin that CAN BE CONFIGURED but may be turned off
+# for server performance reasons or for reasons that may be stated above in another comment.
+#
+# Scratch configuration contains configuration for all features offered by this plugin.
+#
+# VARIABLES
+# variables can be used in the configuration to quickly reference to things like playernames, Server names, as well as
+# chat colours. A variable is defined as a prefix of "${" followed by the variable name "playername" followed by closing
+# "}" so referencing the player name is ${playername}
+scratch:
+
+  # Track Section
+  # contains if the plugin is allowed to track things like stats, and last location of the player. These can be disabled
+  # if you have a lot of event based plugins and need to save performance.
+  track:
+    stats: true
+    last-location: true
+
+  # Messages Section
+  # contains the plugin message based events like the server list motd, as well as the welcome message. Some messages
+  # can be in array form to send multiple lines of messages to players.
+  messages:
+    motd: '${secondary}Join our server.'
+    welcome:
+      - '${secondary}Welcome ${primary}${playername}${secondary} to the server!'
+    join:
+      - '${secondary}${playername} joined'
+      - '${secondary}oh, ${playername} joined'
+      - '${secondary}${playername}'
+      - '${secondary}+ ${playername}'
+      - '${secondary}the ${playername} joined'
+      - '${secondary}${playername} joined the server'
+      - '${secondary}ciao ${playername}'
+      - '${secondary}hey there, ${playername}'
+      - '${secondary}hello ${playername}'
+      - '${secondary}howdy ${playername}'
+      - '${secondary}sup ${playername}'
+      - "${secondary}'s goin' on ${playername}"
+      - '${secondary}${playername} jOiNed tHe SerVeR'
+      - "${secondary}${playername}, did you know, that water freezes. But vodka doesn't"
+      - "${secondary}${playername} wouldn't understand, they're not from alberta"
+
+
+  # Colours Section
+  # contains formatting options for messages sent by this plugin. All commands will be formatted with these colours if
+  # you don't like the preset colour palette.
+  colours:
+    primary: '&c'
+    secondary: '&7'
+    error: '&c'
+    bold: '&l'
+    italic: '&o'
+    underline: '&n'
+    punctuated: true
+
+  # Commands Section
+  # contains booleans to turn plugin commands on or off. I thought it'd be nice to be able to disable or enable commands
+  # at your own whim.
+  commands:
+    back: true
+    clear: true
+    ender: true
+    here: true
+    there: true
+    nick: true
+    stats: true
+    spawn: true
+    trash: true
+    untrash: true
+    warp: true
+    world: true
+
+  # UnCategorized Configuration
+  # all configuration I wasn't able to categorize.
+  old-food: true
+  harder-mobs: true
+  disabled-mobs:
+    - phantom
+  multi:
+    worlds:
+      - 'world:survival'
+      - 'creative:creative'

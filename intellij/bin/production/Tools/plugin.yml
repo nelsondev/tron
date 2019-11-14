@@ -1,0 +1,9 @@
+name: BuildTools
+version: 0.0.1
+description: A simple world edit plugin.
+main: buildtools.Tools
+api-version: 1.13
+
+commands:
+  build:
+    aliases: [ buil, bui, bu, . ]

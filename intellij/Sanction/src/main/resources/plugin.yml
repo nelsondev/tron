@@ -1,0 +1,7 @@
+name: Sanction
+version: ${project.version}
+main: com.nelsontron.sanction.Main
+api-version: 1.13
+authors: [nelson]
+description: A simple but powerful permissions utility.
+website: nelsontron.com

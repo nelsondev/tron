@@ -1,0 +1,19 @@
+name: Siege
+version: ${project.version}
+main: com.nelsontron.siege.Siege
+api-version: 1.13
+authors: [nelson]
+description: A siege based game mode
+website: nelsontron.com
+
+commands:
+  game:
+    aliases: []
+    description: 'Game utility functions for siege.'
+    usage: '/game <subCommand>'
+    permission: 'siege.admin'
+  kit:
+    aliases: []
+    description: 'Open the kit creation menu.'
+    usage: '/kit'
+    permission: 'siege.kit.use'

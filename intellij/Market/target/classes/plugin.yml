@@ -1,0 +1,11 @@
+name: Mjarket
+version: 0.0.1
+main: com.nelsontron.mjarket.Mjarket
+api-version: 1.13
+
+commands:
+  market:
+    aliases: [ m, mjarket, mjar ]
+  pay:
+  balance:
+    aliases: [ bal ]

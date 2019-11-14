@@ -1,0 +1,82 @@
+name: Scratch
+version: 0.2.1
+description: Random survival things I decided I wanted.
+authors: [ cale, nelson ]
+main: com.nelsontron.scratch.Scratch
+api-version: 1.13
+
+commands:
+  scratch:
+    description: admin commands for scratch plugin.
+    usage: 'Usage: /scratch <subCommand>'
+  help:
+    description: help command for the server.
+    usage: 'Usage: /help'
+  spawn:
+    description: teleport yourself to spawn.
+    usage: 'Usage: /spawn <set>'
+  here:
+    description: teleport a player to you.
+    aliases: [ h ]
+    usage: 'Usage: /here <name>'
+  there:
+    description: teleport to a player.
+    aliases: [ t ]
+    usage: 'Usage: /there <name>'
+  stats:
+    description: check out your server stats.
+    usage: 'Usage: /stats'
+  oldwarp:
+    description: teleport to or create a warp.
+    aliases: [ ow ]
+    usage: 'Usage: /warp <set:rename:remove> <name>'
+  clear:
+    description: clear your inventory.
+    usage: 'Usage: /clear'
+  whisper:
+    description: message a player privately.
+    aliases: [ m, message, msg ]
+    usage: 'Usage: /message <name> <message>'
+  nickname:
+    description: change your nickname.
+    aliases: [ nick ]
+    usage: 'Usage: /nickname <name>'
+  pet:
+    description: toggle or create a pet follower. 
+    usage: 'Usage: /pet <pet> <name>'
+  stop:
+    description: restart the server.
+    usage: 'Usage: /stop'
+  restart:
+    description: restart the server.
+    usage: 'Usage: /restart'
+  back:
+    description: teleport back to your last location.
+    aliases: [ ba ]
+    usage: 'Usage: /back'
+  trash:
+    description: trash an item.
+    usage: 'Usage: /trash'
+  untrash:
+    description: untrash an item.
+    usage: 'Usage: /untrash'
+permissions:
+  scratch.*:
+    description: Give access to all scratch commands
+    children:
+      scratch.admin: true
+      help.use: true
+      spawn.use: true
+      here.use: true
+      there.use: true
+      pack.use: true
+      craft.use: true
+      stats.use: true
+      warp.use: true
+      clear.use: true
+      whisper.use: true
+      nickname.use: true
+      pet.use: false
+      stop.use: false
+      restart.use: true
+      back.use: true

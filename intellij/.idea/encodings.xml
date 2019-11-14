@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/LockGuy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Market" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Permissions" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Sanction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Scratch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Siege" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SnackPack" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TreeGuy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tronwarps" charset="UTF-8" />
+  </component>
+</project>

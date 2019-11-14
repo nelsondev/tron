@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Siege" />
+        <module name="Tronwarps" />
+        <module name="Scratch" />
+        <module name="Market" />
+        <module name="TreeGuy" />
+        <module name="LockGuy" />
+        <module name="SnackPack" />
+        <module name="Permissions" />
+        <module name="Sanction" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LockGuy" target="1.8" />
+      <module name="Market" target="1.8" />
+      <module name="Minetools" target="1.8" />
+      <module name="Mjarket" target="1.8" />
+      <module name="NelHelp" target="1.8" />
+      <module name="Owo" target="1.8" />
+      <module name="Permissions" target="1.8" />
+      <module name="Sanction" target="1.8" />
+      <module name="Scratch" target="1.8" />
+      <module name="Scratch1.0" target="1.8" />
+      <module name="ScratchV1" target="1.8" />
+      <module name="Siege" target="1.8" />
+      <module name="SnackPack" target="1.8" />
+      <module name="spongeTest" target="1.8" />
+      <module name="TreeGuy" target="1.8" />
+      <module name="Tronwarps" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

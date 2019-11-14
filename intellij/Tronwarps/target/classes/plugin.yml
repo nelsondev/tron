@@ -1,0 +1,13 @@
+name: Tronwarps
+version: 0.1.2
+main: com.nelsontron.tronwarps.Tronwarps
+api-version: 1.13
+authors: [nelson]
+description: a full featured warp plugin.
+website: nelsontron.com
+
+commands:
+  warp:
+    usage:
+    description:
+    aliases: [ w ]

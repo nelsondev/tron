@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LockGuy:jar">
+    <output-path>$PROJECT_DIR$/bin/artifacts</output-path>
+    <root id="archive" name="LockGuy.jar">
+      <element id="module-output" name="LockGuy" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Tronwarps:jar">
+    <output-path>$PROJECT_DIR$/bin/artifacts</output-path>
+    <root id="archive" name="Tronwarps.jar">
+      <element id="module-output" name="Tronwarps" />
+    </root>
+  </artifact>
+</component>

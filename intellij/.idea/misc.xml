@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="org.bukkit.event.EventHandler" />
+      <item index="1" class="java.lang.String" itemvalue="org.spongepowered.api.event.Listener" />
+      <item index="2" class="java.lang.String" itemvalue="org.spongepowered.api.plugin.Plugin" />
+    </list>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Tronwarps/pom.xml" />
+        <option value="$PROJECT_DIR$/TreeGuy/pom.xml" />
+        <option value="$PROJECT_DIR$/LockGuy/pom.xml" />
+        <option value="$PROJECT_DIR$/SnackPack/pom.xml" />
+        <option value="$PROJECT_DIR$/Scratches/pom.xml" />
+        <option value="$PROJECT_DIR$/ScratchV2/pom.xml" />
+        <option value="$PROJECT_DIR$/Market/pom.xml" />
+        <option value="$PROJECT_DIR$/Siege/pom.xml" />
+        <option value="$PROJECT_DIR$/Permissions/pom.xml" />
+        <option value="$PROJECT_DIR$/Sanction/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/bin" />
+  </component>
+</project>

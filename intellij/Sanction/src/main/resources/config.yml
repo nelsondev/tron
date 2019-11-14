@@ -1,0 +1,48 @@
+options:
+  default-group: 'default'
+  chat:
+    format: true
+  commands:
+    kick: true
+    ban: true
+    unban: true
+
+# GROUPS
+# * Groups can be created or removed at any time during this plugins life. It is recommended that you create and configure
+# groups before server start but they can be edited during with the /sanction command. Performing /sanction reload will
+# fully reload the plugin with your new configuration changes. If you'd like to disable sanction you can do so via
+# /sanction disable. To enable is /sanction enable.
+# * Groups can be edited, removed, or added through the /sanction command as well. Doing /sanction help will give a full
+# list of the plugin commands. If you'd like to quickly add a group do /sanction add groups <groupName>. Example being:
+# /sanction add groups civilian. To remove, /sanction remove groups civilian. To add a permission to a group:
+# /sanction add groups.<groupName>.permissions <your permission here>. Example being:
+# /sanction add groups.administrator.permission sanction.*. To remove a permission is
+# /sanction remove groups.<groupName>.permission <your permission here>. Example being:
+# /sanction remove groups.administrator.permission sanction.*. Changing options such as prefix, or suffix would be
+# /sanction set groups.<groupName>.prefix <your prefix here>. Example being: /sanction set groups.administrator.prefix
+#  &red(ADMIN). You're able to set it  to blank to remove what you had set.
+groups:
+
+  # default
+  default:
+    permissions:
+      - add.your.permission
+      - more.permissions
+    prefix: '&gray'
+    suffix: ':&white'
+
+  # moderator
+  moderator:
+    permissions:
+      - sanction.kick
+      - sanction.ban
+      - sanction.unban
+    prefix: '&dark_purple'
+    suffix: ':&white'
+
+  # administrator
+  administrator:
+    permissions:
+      - sanction.*
+    prefix: '&red'
+    suffix: ':&white'

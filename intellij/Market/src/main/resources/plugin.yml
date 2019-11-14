@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}
+main: com.nelsontron.mjarket.Mjarket
+api-version: 1.13
+
+commands:
+  market:
+    aliases: [ m, mjarket, mjar ]
+  pay:
+  balance:
+    aliases: [ bal ]

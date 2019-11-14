@@ -1,0 +1,5 @@
+options:
+  motd: '&c&leat da poo poo'
+  log-player-stats: true
+  allow-nicknames: true
+  

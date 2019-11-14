@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Market:jar">
+    <output-path>$PROJECT_DIR$/bin/artifacts</output-path>
+    <root id="archive" name="Mjarket.jar">
+      <element id="module-output" name="Market" />
+    </root>
+  </artifact>
+</component>

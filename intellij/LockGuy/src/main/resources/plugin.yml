@@ -1,0 +1,11 @@
+name: LockGuy
+version: ${project.version}
+main: com.nelsontron.lockguy.LockGuy
+api-version: 1.13
+authors: [nelson]
+description: a simple chest locking plugin.
+website: nelsontron.com
+
+commands:
+  lock:
+  sort:

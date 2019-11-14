@@ -1,0 +1,7 @@
+name: Permissions
+version: 0.0.1
+main: com.nelsontron.permissions.Main
+api-version: 1.13
+authors: [nelson]
+description: A simple permissions plugin
+website: nelsontron.com

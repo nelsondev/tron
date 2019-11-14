@@ -1,0 +1,19 @@
+name: SnackPack
+version: 1.0-SNAPSHOT
+main: com.nelsontron.snackpack.SnackPack
+api-version: 1.13
+authors: [nelson]
+description: A backpack creation and storing tool.
+website: nelsontron.com
+
+commands:
+  pack:
+    aliases: [ b, p ]
+  craft:
+    aliases: [ c, cra ]
+  ender:
+    aliases: [ end ]
+  enchant:
+    aliases: [ ench ]
+  cutter:
+    aliases: [ cut ]

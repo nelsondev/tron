@@ -1,0 +1,93 @@
+name: Scratch
+version: '1.0'
+main: com.nelsontron.scratch.Scratch
+api-version: '1.13'
+authors: [nelson]
+description: 'A simple essential command plugin for survival servers.'
+website: 'nelsontron.com'
+
+commands:
+
+  scratch:
+    aliases: []
+    description: 'Scratch admin commands'
+    usage: '/scratch <subCommand>'
+    permission: 'scratch.use'
+  back:
+    aliases: []
+    description: 'Teleport to your last teleport location'
+    usage: '/back'
+    permission: 'back.use'
+  clear:
+    aliases: []
+    description: 'Clear your inventory'
+    usage: '/clear'
+    permission: 'clear.use'
+  ender:
+    aliases: []
+    description: 'Open your ender chest'
+    usage: '/ender'
+    permission: 'ender.use'
+  here:
+    aliases: [ h ]
+    description: 'Teleport a player to you'
+    usage: '/here <player>'
+    permission: 'here.use'
+  nick:
+    aliases: []
+    description: 'Set your server nick name'
+    usage: '/nick <name>'
+    permission: 'nick.use'
+  spawn:
+    aliases: []
+    description: 'Teleport to spawn'
+    usage: '/spawn'
+    permission: 'spawn.use'
+  stats:
+    aliases: []
+    description: 'Check your server stats'
+    usage: '/stats'
+    permission: 'stats.use'
+  there:
+    aliases: [ t ]
+    description: 'Teleport to a player'
+    usage: '/there <player>'
+    permission: 'there.use'
+  trash:
+    aliases: []
+    description: 'Trash the item in your hand'
+    usage: '/trash'
+    permission: 'trash.use'
+  untrash:
+    aliases: []
+    description: 'UnTrash the last item you trashed'
+    usage: '/untrash'
+    permission: 'untrash.use'
+  warp:
+    aliases: [ w ]
+    description: 'Teleport to a Warp location'
+    usage: '/warp <set:remove:rename:warpName>'
+    permission: 'warp.use'
+  world:
+    aliases: []
+    description: 'Teleport to a new world'
+    usage: '/world <name>'
+    permission: 'world.use'
+
+permissions:
+  scratch.*:
+    description: 'Give a player access to all Scratch commands'
+    children:
+      scratch.use: true
+      back.use: true
+      clear.use: true
+      ender.use: true
+      here.use: true
+      nick.use: true
+      spawn.use: true
+      stats.use: true
+      there.use: true
+      trash.use: true
+      untrash.use: true
+      warp.use: true
+      world.use: true

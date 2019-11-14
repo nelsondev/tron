@@ -1,0 +1,10 @@
+name: TreeGuy
+version: ${project.version}
+main: com.nelsontron.treeguy.TreeGuy
+api-version: 1.13
+authors: [nelson]
+description: tree mining plugin
+website: nelsontron.com
+
+commands:
+  tree:

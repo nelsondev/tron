@@ -1,0 +1,9 @@
+name: Toduru
+version: 0.0.1
+description:  Project management function for minecraft.
+main: todo.Main
+api-version: 1.13
+
+commands:
+  todo:
+    aliases: [ to, t, project, proj ]
