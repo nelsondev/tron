@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>McCullough Movies</title>
+    <link rel="stylesheet" href="webresource/css/master.css">
+    <link rel='stylesheet' href='webresource/css/videostyle.css'>
+    <link href='https://vjs.zencdn.net/7.4.1/video-js.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=0.86,
+    		maximum-scale=1.0, minimum-scale=0.86'>
+    
+    <!-- Code snippet to speed up Google Fonts rendering: googlefonts.3perf.com -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" as="fetch"
+        crossorigin="anonymous">
+    <script type="text/javascript">
+        !function (e, n, t) { "use strict"; let o = "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700", r = "__3perf_googleFontsStylesheet"; function c(e) { (n.head || n.body).appendChild(e) } function a() { let e = n.createElement("link"); e.href = o, e.rel = "stylesheet", c(e) } function f(e) { if (!n.getElementById(r)) { let t = n.createElement("style"); t.id = r, c(t) } n.getElementById(r).innerHTML = e } e.FontFace && e.FontFace.prototype.hasOwnProperty("display") ? (t[r] && f(t[r]), fetch(o).then(function (e) { return e.text() }).then(function (e) { return e.replace(/@font-face {/g, "@font-face{font-display:swap;") }).then(function (e) { return t[r] = e }).then(f).catch(a)) : a() }(window, document, localStorage);
+    </script>
+    <!-- End of code snippet for Google Fonts -->
+</head>
+<body>
+    <span id="top"></span>
+    <div class="menu_container">
+        <div class="burger_container">
+            <span class="burger_slice"></span>
+            <!--brigerslice-->
+            <span class="burger_slice"></span>
+            <!--brigerslice-->
+            <span class="burger_slice" style="width: 20px;"></span>
+            <!--brigerslice-->
+        </div>
+    </div>
+    
+    <div class="js_overlay">
+        <div id="loading-box"></div>
+        <p>&lt;loading&gt;</p>
+        <p class="fixbottom">you might not have <a href="https://nel.codes">access</a> to this website.</p>
+    </div>
+    
+    <div class="menu_extended_container">
+        <ul style="margin-top: 40px;">
+            <a href="#top">
+                <li id="movies-menu-selector">
+                    MOVIES<i class="material-icons">movie_creation</i>
+                </li>
+            </a>
+            <a href="#top">
+                <li id="tv-menu-selector">
+                    TV SHOWS<i class="material-icons">album</i>
+                </li>
+            </a>
+            <a href="#top">
+                <li>
+                    <input id="search-bar" onfocus="this.value=''" type="text" placeholder="SEARCH" /><i
+                        class="material-icons" id="search-icon">
+                        search</i><i class="material-icons" id="close-icon">close</i>
+                </li>
+            </a>
+            <a href="#" id="request-menu-selector">
+                <li>REQUEST A FILM<i class="material-icons">cloud_queue</i>
+                </li>
+            </a>
+        </ul>
+    </div>
+    
+    <header>
+        <div id="movies-header">
+            <!-- TODO: add movie header box and content -->
+            <div id="movies-header-title">
+                <h1 class="format_menu_text" style="background: #fff; color: #000;">MM beta</h1>
+            </div>
+            <div id="movies-header-content">
+                <p class="format_menu_text">somemovie.jpg?</p>
+                <p class="format_menu_text">theres content here somewhere! Somethings broken..</p>
+            </div>
+            <div id="movies-header-buttons">
+                <h4 id="more-details-button" class="format_menu_text" style="background: #FA7268;">less details
+                    <i class="material-icons">keyboard_arrow_up</i></h4>
+                <a href="#top" style="text-decoration: none" id="play-random-button" class="format_menu_text">
+                    <h4 class="reset_padding">play movie</h4>
+                    <i class="material-icons">play_arrow</i>
+                </a>
+            </div>
+        </div>
+        <div id="tv-header">
+            <!-- TODO: add tv header box and content -->
+        </div>
+        <div id="player-header" class="header_box">
+            <!-- TODO: add video player header box and content -->
+            <video id='my-video' class='video-js vjs-big-play-centered' controls preload='true' data-setup='{}'>
+                <source src='https://nelsontron.com/videos/moon.mp4' type='video/mp4'>
+                <p class='vjs-no-js'>
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                </p>
+            </video>
+        </div>
+    </header>
+    
+    <div id="movie_content">
+    
+    </div>
+    
+    <h3 id="empty">cant find anything...</h3>
+    
+    <footer>
+        <span class="div60px"></span>
+        <div class="footer_container">
+            <p><a href="#top">back to top<i class="material-icons">arrow_upward</i></a></p>
+            <p>copyright &copy; 2019 nelsontron.com. all rights reserved.</p>
+        </div>
+    </footer>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+    <script>
+        var jsonData = [];
+        $.getJSON("data/data.json", function (a) {
+            jsonData = a;
+            debugLog(a);
+            placeGenreHtml(a.genres);
+            placeVideoHtml(a.movies);
+            loadRandomMovieHeader(a.movies);
+            lazyLoadBackground();
+            shuffleDivs();
+            hideallUnusedElemets();
+        });
+        function placeGenreHtml(a) {
+            debugLog(a);
+            $.each(a, function (a, b) {
+                var c = '<div class="genre_box"><h3 id="genre-' + b.name + '">' + b.display_name;
+                c += '</h3><div class="scroll_box shuffle" id="' + b.name + '"></div></div>';
+                $("#movie_content").append(c);
+            });
+        }
+        function placeVideoHtml(a) {
+            debugLog(a);
+            $.each(a, function (a, b) {
+                var c = '<div class="video_box lazy-background" video-src="' + b.video_src + '"';
+                c += 'video-poster-src="' + b.poster_src + '" video-promo-src"' + b.promo_src + '"';
+                c += 'video-desc="' + b.description + '"><h5></h5 class="videoname">' + b.name + "</h5></div>";
+                for (var d = b.genre.split(","), e = 0; e < d.length; e++) {
+                    $("#" + d[e]).append(c);
+                }
+                d = localStorage.getItem("recently-played");
+                null != d && (d.includes(b.name) ? $("#watched").append(c) : $("#genre-watched").hide());
+            });
+        }
+        function loadRandomMovieHeader(a) {
+            a = a[Math.floor(Math.random() * a.length)];
+            debugLog(a);
+            var f = '<h4 class="format_menu_text videoname">' + a.name + "</h4>";
+            f += '<p class="format_menu_text">' + a.description + "</p>";
+            $("#movies-header").css("background", "url(" + a.promo_src + ")");
+            $("#movies-header-content").html(f);
+            $("#play-random-button").attr("video-src", a.video_src);
+        }
+        function hideallUnusedElemets() {
+            $("#player-header").hide();
+            $("#close-icon").hide();
+            $("#empty").hide();
+            $(".menu_extended_container").hide();
+            $(".js_overlay").hide();
+        }
+        ;
+    </script>
+    <script src="webresource/scripts/mccmovies.min.js"></script>
+</body>
+</html>

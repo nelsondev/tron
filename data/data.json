@@ -1,0 +1,830 @@
+{
+  "debug": true,
+  "genres": [
+		{
+			"name":"watched",
+			"display_name":"recently watched"
+		},
+		{
+			"name":"recently",
+			"display_name":"recently added"
+		},
+		{
+			"name":"action",
+			"display_name":"action movies"
+		},
+		{
+			"name":"comedy",
+			"display_name":"comedies"
+		},
+		{
+			"name":"drama",
+			"display_name":"drama films"
+		},
+		{
+			"name":"adventure",
+			"display_name":"adventures"
+		},
+		{
+			"name":"fantasy",
+			"display_name":"fantasy movies"
+		},
+		{
+			"name":"thriller",
+			"display_name":"thillers + horror"
+		},
+		{
+			"name":"romance",
+			"display_name":"romance movies"
+		},
+		{
+			"name":"documentary",
+			"display_name":"documentaries"
+		},
+		{
+			"name":"animated",
+			"display_name":"animated"
+		},
+		{
+			"name":"scifi",
+			"display_name":"sci-fi"
+		},
+    {
+      "name":"crime",
+			"display_name":"crime"
+    },
+    {
+      "name":"tv",
+      "display_name":"tv shows"
+    }
+  ],
+	"movies": [
+		{
+			"name":"avatar",
+			"video_src":"http://25.70.61.84/files/movies/avatar/Avatar.ECE.2009.720p.BrRip.x264.bitloks.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BNzM2MDk3MTcyMV5BMl5BanBnXkFtZTcwNjg0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+			"description":"Jake is the main protagonist in Avatar. He is a fully trained marine soldier who was paralyzed in an explosion from the waist dawn. The movie starts out with him being in the transport ship on a 5 year journey to Pandora, the planet of the native Na'vi race.",
+			"genre":"action,adventure,fantasy"
+		},
+		{
+			"name":"braveheart",
+			"video_src":"http://25.70.61.84/files/movies/braveheart/Braveheart%201995.720p.BrRip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BODYwNzcyMjIxNF5BMl5BanBnXkFtZTgwMDEyNzU5MTE@._V1_SY1000_CR0,0,1492,1000_AL_.jpg",
+			"description":"When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt against King Edward I of England. ... Tells the story of the legendary thirteenth century Scottish hero named William Wallace.",
+			"genre":"action,fantasy"
+		},
+		{
+			"name":"cast away",
+			"video_src":"http://25.70.61.84/files/movies/cast%20away/Cast.Away.2000.720p.BrRip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BN2Y5ZTU4YjctMDRmMC00MTg4LWE1M2MtMjk4MzVmOTE4YjkzXkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://cablagoobla.files.wordpress.com/2014/09/cast-away-2.png",
+			"description":"A FedEx executive undergoes a physical and emotional transformation after crash landing on a deserted island. ... That marital status changes when on Christmas Day 1995 as Chuck is rushing off to catch yet another FedEx plane for a business trip, he gives Kelly a ring.",
+			"genre":"adventure,drama,romance"
+		},
+		{
+			"name":"dazed and confused",
+			"video_src":"http://25.70.61.84/files/movies/dazed%20and%20confused/Dazed.and.Confused.1993.HDDVD.720p.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTM5MDY5MDQyOV5BMl5BanBnXkFtZTgwMzM3NzMxMDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjU3Mjg1MjkyOV5BMl5BanBnXkFtZTgwMTk1MDQ4NzE@._V1_.jpg",
+			"description":"It's the last day of school at a high school in a small town in Texas in 1976. The upperclassmen are hazing the incoming freshmen, and everyone is trying to get stoned, drunk, or laid, even the football players that signed a pledge not to.",
+			"genre":"comedy"
+		},
+		{
+			"name":"E.T.",
+			"video_src":"http://25.70.61.84/files/movies/e.t/E.T..The.Extra-Terrestrial.1982.1080p.BluRay.x264-[YTS.AG].mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://images2.alphacoders.com/626/thumb-1920-626140.jpg",
+			"description":"tells the story of Elliott (Thomas), a boy who befriends an extraterrestrial, dubbed E.T, who is stranded on Earth. Elliott and his siblings help E.T. return to his home planet, while attempting to keep him hidden from the government.",
+			"genre":"scifi,fantasy,adventure"
+		},
+		{
+			"name":"edward scissorhands",
+			"video_src":"http://25.70.61.84/files/movies/edward%20scissorhands/Edward.Scissorhands.1990.1080p.BrRip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BNDUxN2I5NDUtZjdlMC00NjlmLTg0OTQtNjk0NjAxZjFmZTUzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMDE4NmMxNTUtNWM1OC00MTFlLWE5ZDgtNjcwOWE4ZDA2OTc3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,953_AL_.jpg",
+			"description":"An artificial man, who was incompletely constructed and has scissors for hands, leads a solitary life. Then one day, a suburban lady meets him and introduces him to her world. In a castle high on top of a hill lives an inventor's greatest creation - Edward, a near-complete person.",
+			"genre":"drama,fantasy,romance"
+		},
+		{
+			"name":"fight club",
+			"video_src":"http://25.70.61.84/files/movies/fight%20club/Fight.Club.10th.Anniversary.Edition.1999.720p.BrRip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://wallpapercave.com/wp/wp2542420.jpg",
+			"description":"An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more. A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state.",
+			"genre":"action,drama"
+		},
+		{
+			"name":"full metal jacket",
+			"video_src":"http://25.70.61.84/files/movies/full%20metal%20jacket/Full.Metal.Jacket.1987.1080p.BluRay.x264-%5bYTS.AM%5d.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BNDIxNzcwOTEyM15BMl5BanBnXkFtZTcwOTg4NDIwNA@@._V1_SY1000_CR0,0,1463,1000_AL_.jpg",
+			"description":"A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+			"genre":"action,drama"
+		},
+		{
+			"name":"gladiator",
+			"video_src":"http://25.70.61.84/files/movies/gladiator/Gladiator.EXTENDED.REMASTERED.2000.720p.BrRip.x264.BOKUTOX.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjEwNzE1MDU5Ml5BMl5BanBnXkFtZTcwOTc0NjcxNA@@._V1_SY1000_CR0,0,1528,1000_AL_.jpg",
+			"description":"A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery. ... The powerful general is unable to save his family, and his loss of will allows him to get captured and put into the Gladiator games until he dies.",
+			"genre":"action"
+		},
+		{
+			"name":"gremlins",
+			"video_src":"http://25.70.61.84/files/movies/gremlins/Gremlins.1984.1080p.BRrip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BZDVjN2FkYTQtNTBlOC00MjM5LTgzMWEtZWRlNGUyYmNiOTFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://i.pinimg.com/originals/53/2b/b5/532bb56716497bd9e30ff4877e1fc02d.jpg",
+			"description":"Gremlins begins with inventor Rand Peltzer trying to find a quick gift for his son Billy before returning home from a New York trip. He settles on a unique pet in a Chinatown curio shop--a cute, furry creature known as a Mogwai.",
+			"genre":"comedy,adventure"
+		},
+		{
+			"name":"jurassic park",
+			"video_src":"http://25.70.61.84/files/movies/jurassic%20park/Jurassic.Park.1993.720p.BrRip.264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://hawaiioceanproject.com/wp-content/uploads/2018/01/jurassicpark_1000.jpg",
+			"description":"In Steven Spielberg's massive blockbuster, paleontologists Alan Grant (Sam Neill) and Ellie Sattler (Laura Dern) and mathematician Ian Malcolm (Jeff Goldblum) are among a select group chosen to tour an island theme park populated by dinosaurs created from prehistoric DNA. While the park's mastermind, billionaire John Hammond (Richard Attenborough), assures everyone that the facility is safe, they find out otherwise when various ferocious predators break free and go on the hunt.",
+			"genre":"animated,adventure"
+		},
+		{
+			"name":"love actually",
+			"video_src":"http://25.70.61.84/files/movies/love%20actually/Love%20Actually%20720p.x264.BRRip.GokU61.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTU0NzMzODQ0N15BMl5BanBnXkFtZTgwMzA1MDg4NjM@._V1_.jpg",
+			"description":"There's a point at Juliet and Peter's wedding in which Laura Linney's character asks Mark if he's in love with Peter. ... One of two platonic love plots in Love Actually, Billy Mack and Joe is only ranked so low because of the low stakes. The stakes are so low you can play limbo with them.",
+			"genre":"romance,comedy"
+		},
+		{
+			"name":"planes trains and automobiles",
+			"video_src":"http://25.70.61.84/files/movies/planes%20trains%20and%20automobiles/Planes%20Trains%20And%20Automobiles.1987.BRRip.x264-VLiS.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BM2I1ZWNkYjEtYWY3ZS00MmMwLWI5OTEtNWNkZjNiYjIwNzY0XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://www.rollingstone.com/wp-content/uploads/2018/06/rs-planes-trains-and-automobiles-20661100-179d-4dfa-816f-541265fcfe0c.jpg?crop=900:600&width=440",
+			"description":"All that Neal Page wants to do is to get home for Thanksgiving. His flight has been cancelled due to bad weather, so he decides on other means of transport. As well as bad luck, Neal is blessed with the presence of Del Griffith, shower curtain ring salesman and all-around blabbermouth who is never short of advice, conversation, bad jokes, or company. And when he decides that he is going the same direction as Neal...",
+			"genre":"comedy"
+		},
+		{
+			"name":"slumdog millionaire",
+			"video_src":"http://25.70.61.84/files/movies/slumdog%20millionaire/Slumdog%20Millionaire%202008.720p.BrRip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BZmNjZWI3NzktYWI1Mi00OTAyLWJkNTYtMzUwYTFlZDA0Y2UwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://imgix.bustle.com/uploads/image/2018/11/12/7eb03f68-3779-46ef-9096-16e06b89e199-slumdog.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
+			"description":"Jamal and his brother Salim were raised in the slums of Mumbai. Orphaned at a young age, they managed to survive as did their young friend Latika. Jamal becomes a contestant on India's version of Who Wants To Be A Millionnaire. He manages to get to 10 million rupees in his first appearance but is arrested by the police who want to know how an illiterate 'slumdog' - as children raised in the slum are called - could possibly know all of those answers without cheating.",
+			"genre":"romance"
+		},
+		{
+			"name":"star wars episode V: the empire strikes back",
+			"video_src":"http://25.70.61.84/files/movies/star%20wars%20episode%20V%20the%20empire%20strikes%20back/Star.Wars.Episode.5.The.Empire.Strikes.Back.1980.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://www.hdwallpaper.nu/wp-content/uploads/2018/06/star_wars_episode_v_the_empire_strikes_back-2.jpg",
+			"description":"Three years after the destruction of the Death Star, the Rebel Alliance, led by Princess Leia, has set up a new base on the ice planet of Hoth. The Imperial fleet, led by Darth Vader, continues to hunt for the new Rebel base by dispatching probe droids across the galaxy.",
+			"genre":"scifi"
+		},
+		{
+			"name":"terminator 3",
+			"video_src":"http://25.70.61.84/files/movies/terminator%203/Terminator.3.Rise.of.the.Machines.2003.720p.BluRay.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTk5NzM1ODgyN15BMl5BanBnXkFtZTcwMzA5MjAzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://www.theterminatorfans.com/wp-content/uploads/2016/10/T-X.jpg",
+			"description":"Following the events of 'Terminator 2: Judgment Day', John Connor (Nick Stahl) has been living off-the-grid in Los Angeles. ... The Resistance sends a reprogrammed T-850 model 101 Terminator (Arnold Schwarzenegger) back in time to protect the T-X's targets, including Kate Brewster (Claire Danes) and Connor.",
+			"genre":"scifi,action"
+		},
+		{
+			"name":"the goonies",
+			"video_src":"http://25.70.61.84/files/movies/the%20goonies/The.Goonies.1985.720p.BrRip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BNGViMjJjNTUtY2IzNi00YzcyLWFjODUtMjc0NTI3YWNhNjgzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjE5OTM0Njk3Nl5BMl5BanBnXkFtZTcwNzY3NzMyNw@@._V1_SY1000_CR0,0,1509,1000_AL_.jpg",
+			"description":"The Goonies, a group of friends living in the 'Goon Docks' neighborhood of Astoria, Oregon, face foreclosure on their families' homes from the expanding Astoria Country Club. ... However, the Fratellis return before they can leave, forcing the Goonies to use a cavern underneath the restaurant to escape.",
+			"genre":"comedy,family"
+		},
+		{
+			"name":"the hangover",
+			"video_src":"http://25.70.61.84/files/movies/the%20hangover/The.Hangover.2009.UNRATED.720p.BrRip.x264.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://a.ltrbxd.com/resized/sm/upload/d6/w1/tn/jn/the-hangover-1200-1200-675-675-crop-000000.jpg?k=f67a8fe701",
+			"description":"Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. ... The morning after their arrival in Las Vegas, they awaken in their hotel suite each with the worst hangover. None remembers what happened in the past twelve or so hours.",
+			"genre":"comedy"
+		},
+		{
+			"name":"the shining",
+			"video_src":"http://25.70.61.84/files/movies/the%20shining/The.Shining.1980.1080p.BluRay.x264-[YTS.AM].mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"http://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2018/08/the-shining_1280x720.jpg",
+			"description":"Jack Torrance takes a job interview as winter caretaker of the isolated, old, huge and beautiful Overlook Hotel. ... Ignoring the story, Jack brings his wife - Wendy and his son Danny. It happens that Danny, has a mysterious power known as 'The Shining' that shows him things from the past and future.",
+			"genre":"thriller"
+		},
+		{
+			"name":"TRON",
+			"video_src":"http://25.70.61.84/files/movies/tron%201982/Tron.1982.720p.BrRip.x264.bitloks.YIFY.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMzZhNjYyZDYtZmE4MC00M2RlLTlhOGItZDVkYTVlZTYxOWZlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTk3Mjk0NDg1OV5BMl5BanBnXkFtZTgwMDUxOTM4NDE@._V1_SX1777_CR0,0,1777,903_AL_.jpg",
+			"description":"Hacker/arcade owner Kevin Flynn is digitally broken down into a data stream by a villainous software pirate known as Master Control and reconstituted into the internal, 3-D graphical world of computers. It is there, in the ultimate blazingly colorful, geometrically intense landscapes of cyberspace, that Flynn joins forces with Tron to outmaneuver the Master Control Program that holds them captive in the equivalent of a gigantic, infinitely challenging computer game.",
+			"genre":"scifi,adventure"
+		},
+		{
+			"name":"TRON legacy",
+			"video_src":"http://25.70.61.84/files/movies/tron%20legacy/Tron.Legacy.2010.Br.720P.Yify-1-2019-03-23.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTk4NTk4MTk1OF5BMl5BanBnXkFtZTcwNTE2MDIwNA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://www.slashfilm.com/wp/wp-content/images/zz2b8174d0.jpg",
+			"description":"The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
+			"genre":"scifi,adventure"
+		},
+		{
+			"name":"Mid90s",
+			"video_src":"http://25.70.61.84/files/movies/mid90s/mid90s.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BZDhjNDQ0MjEtNWZhMy00ZTY1LWFkYmQtMWYwNDliNGQ1MWU2XkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjIxOTMxNzMxNl5BMl5BanBnXkFtZTgwMTY3MzA0NjM@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+			"description":"",
+			"genre":"drama"
+		},
+		{
+			"name":"fantastic mr fox",
+			"video_src":"http://25.70.61.84/files/movies/fantastic%20mr%20fox/fantasticmrfox.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BOGUwYTU4NGEtNDM4MS00NDRjLTkwNmQtOTkwMWMyMjhmMjdlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://a.ltrbxd.com/resized/sm/upload/kf/fk/fg/z4/fantastic-mr-fox-1200-1200-675-675-crop-000000.jpg",
+			"description":"Fantastic Mr. Fox, based on the classic book by Roald Dahl, tells a story about wild animals, underground tunnels, explosions, flames, burning things, a brilliantly clever fox, and three of the meanest, nastiest, ugliest farmers you'll ever know.",
+			"genre":"animated"
+		},
+		{
+			"name":"isle of dogs",
+			"video_src":"http://25.70.61.84/files/movies/isle%20of%20dogs/isleofdogs.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTYyOTUwNjAxM15BMl5BanBnXkFtZTgwODcyMzE0NDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"http://7wallpapers.net/wp-content/uploads/Isle-of-Dogs-14.jpg",
+			"description":"An outbreak of dog flu has spread through the city of Megasaki, Japan, and Mayor Kobayashi has demanded all dogs to be sent to Trash Island. On the island, a young boy named Atari sets out to find his lost dog, Spots, with the help of five other dogs... with many obstacles along the way.",
+			"genre":"animated,comedy,adventure"
+		},
+		{
+			"name":"moonrise kingdom",
+			"video_src":"http://25.70.61.84/files/movies/moonrise%20kingdom/moonrise%20kingdom.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTU4MTg1MDU4N15BMl5BanBnXkFtZTcwOTAwMDQ4Nw@@._V1_SY1000_CR0,0,1751,1000_AL_.jpg",
+			"description":"Set on an island off the coast of New England in the 1960s, as a young boy and girl fall in love they are moved to run away together. Various factions of the town mobilize to search for them and the town is turned upside down - which might not be such a bad thing.",
+			"genre":"romance,adventure,drama"
+		},
+		{
+			"name":"grand budapest hotel",
+			"video_src":"http://25.70.61.84/files/movies/grand%20budapest%20hotel/grandbudapest.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjMwNjcyODA0Nl5BMl5BanBnXkFtZTgwODcwODYyMTE@._V1_SY1000_CR0,0,1301,1000_AL_.jpg",
+			"description":"The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+			"genre":"adventure,drama"
+		},
+		{
+			"name":"BlacKkKlansman",
+			"video_src":"http://25.70.61.84/files/movies/blacKkKlansman/BlacKkKlansman.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjUyOTE1NjI0OF5BMl5BanBnXkFtZTgwMTM4ODQ5NTM@._V1_UX182_CR0,0,182,268_AL_.jpg?owo",
+			"promo_src":"https://pmcvariety.files.wordpress.com/2018/05/blackkklansman.jpg?w=1000&h=563&crop=1",
+			"description":"Ron Stallworth, an African American police officer from Colorado Springs, CO, successfully manages to infiltrate the local Ku Klux Klan branch with the help of a Jewish surrogate who eventually becomes its leader. Based on actual events.",
+			"genre":"comedy,drama"
+		},
+		{
+			"name":"a star is born",
+			"video_src":"http://25.70.61.84/files/movies/a%20star%20is%20born/astarisborn.mp4",
+			"poster_src":"https://images-na.ssl-images-amazon.com/images/I/51R-TU6VaTL.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTExMTc5OTc2MTJeQTJeQWpwZ15BbWU4MDgwNjgwNDYz._V1_SX1777_CR0,0,1777,744_AL_.jpg",
+			"description":"Seasoned musician Jackson Maine (Bradley Cooper) discovers-and falls in love with-struggling artist Ally (Gaga). She has just about given up on her dream to make it big as a singer - until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+			"genre":"comedy,drama"
+		},
+		{
+			"name":"airplane!",
+			"video_src":"http://25.70.61.84/files/movies/airplane!/airplane!.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BZjA3YjdhMWEtYjc2Ni00YzVlLWI0MTUtMGZmNTJjNmU0Yzk2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjI5MzA5OTkxMl5BMl5BanBnXkFtZTcwNzkzNTA2OQ@@._V1_SY1000_CR0,0,1493,1000_AL_.jpg",
+			"description":"Still craving for the love of his life, Ted Striker follows Elaine onto the flight that she is working on as a member of the cabin crew. Elaine doesn't want to be with Ted anymore, but when the crew and passengers fall ill from food poisoning, all eyes are on Ted.",
+			"genre":"comedy"
+		},
+		{
+			"name":"alien 1979",
+			"video_src":"http://25.70.61.84/files/movies/alien%201979/Alien1979-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjQ1MTI3OTM0Ml5BMl5BanBnXkFtZTcwMzAwODAxNA@@._V1_SY1000_CR0,0,1484,1000_AL_.jpg",
+			"description":"After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious lifeform, and they soon realize that its life cycle has merely begun.",
+			"genre":"scifi,thriller"
+		},
+		{
+			"name":"alien predator 2018",
+			"video_src":"http://25.70.61.84/files/movies/alien%20predator%202018/Alienpredator2018-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BYmQxYjNmMWUtODg5YS00YWRmLTg2MDktMzJlY2FjNzljZDM1XkEyXkFqcGdeQXVyNTkzMzg3NDM@._V1_UY268_CR4,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BZjUzYWRkY2EtNWEyZC00MzNjLTgxODYtZDdkNWVmNTRlZmI5XkEyXkFqcGdeQXVyNzQxNTcwNjU@._V1_SY1000_CR0,0,1583,1000_AL_.jpg",
+			"description":"When a black ops team is sent to investigate the crash of an unidentified aircraft, they soon find themselves being hunted by the former occupants.",
+			"genre":"scifi,action"
+		},
+		{
+			"name":"american pie",
+			"video_src":"http://25.70.61.84/files/movies/american%20pie/Americanpie1-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BZDI0NWZjZGYtNzYyYy00MWZkLTk4ZTEtYmU4MjcyZjE3Zjc3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzI4Nzk0NjY@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+			"description":"Four teenage boys enter a pact to lose their virginity by prom night.",
+			"genre":"comedy"
+		},
+		{
+			"name":"aquaman 2018",
+			"video_src":"http://25.70.61.84/files/movies/aquaman%202018/aquaman2018.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"http://hdqwalls.com/wallpapers/aquaman-2018-movie-i4.jpg",
+			"description":"Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+			"genre":"scifi,action"
+		},
+		{
+			"name":"avengers: infinity war",
+			"video_src":"http://25.70.61.84/files/movies/avengers%20infinity%20war/Avengersinfinitywar-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://images.alphacoders.com/909/thumb-1920-909872.jpg",
+			"description":"The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+			"genre":"action"
+		},
+		{
+			"name":"back to the future",
+			"video_src":"http://25.70.61.84/files/movies/back%20to%20the%20future/Backtothefuture1-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMGU1NDkyMzUtMjE1OC00NDM3LWI1ZDYtM2ZiYzYwZDM5ODM3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,967_AL_.jpg",
+			"description":"Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+			"genre":"comedy,scifi,adventure"
+		},
+		{
+			"name":"because I said so",
+			"video_src":"http://25.70.61.84/files/movies/because%20i%20said%20so/Becauseisaidso-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjAyNjU4NTMzNl5BMl5BanBnXkFtZTcwNzk3NzI0MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjcxMDA1Nzk3Ml5BMl5BanBnXkFtZTgwOTI4MzkxMDI@._V1_SY1000_CR0,0,1532,1000_AL_.jpg",
+			"description":"A meddling mother tries to set her daughter up with the right man so her kid won't follow in her footsteps.",
+			"genre":"comedy,romance"
+		},
+		{
+			"name":"cars",
+			"video_src":"http://25.70.61.84/files/movies/cars/Cars1-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BNzYxMjY5NDUyMV5BMl5BanBnXkFtZTcwMzgzMTQyMw@@._V1_SY1000_CR0,0,1637,1000_AL_.jpg",
+			"description":"A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.",
+			"genre":"comedy,animated"
+		},
+		{
+			"name":"harry potter: the deathly hallows pt. 1",
+			"video_src":"http://25.70.61.84/files/movies/harry%20potter%20deathly%20hallows/Harrypotterdeathlyhallows1-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://images6.alphacoders.com/673/thumb-1920-673797.jpg",
+			"description":"As Harry, Ron and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"harry potter: the deathly hallows pt. 2",
+			"video_src":"http://25.70.61.84/files/movies/harry%20potter%20deathly%20hallows%20pt%202/Harrypotterdeathlyhallows2-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjIyZGU4YzUtNDkzYi00ZDRhLTljYzctYTMxMDQ4M2E0Y2YxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://images3.alphacoders.com/217/thumb-1920-217735.jpg",
+			"description":"Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"harry potter: the goblet of fire",
+			"video_src":"http://25.70.61.84/files/movies/harry%20potter%20goblet%20of%20fire/Harrypottergobletoffire-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTUwMjQzNDk3M15BMl5BanBnXkFtZTcwMTA1NjUwNA@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg",
+			"description":"A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"harry potter: the half blood prince",
+			"video_src":"http://25.70.61.84/files/movies/harry%20potter%20half%20blood/Harrypotterhalfbloodprince-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjMyMzY5NjM2N15BMl5BanBnXkFtZTcwNDEyODMyNw@@._V1_.jpg",
+			"description":"As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as 'the property of the Half-Blood Prince' and begins to learn more about Lord Voldemort's dark past.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"harry potter: the order of the pheonix",
+			"video_src":"http://25.70.61.84/files/movies/harry%20potter%20order/Harrypotterorderofpheonix-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTM0NTczMTUzOV5BMl5BanBnXkFtZTYwMzIxNTg3._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTU1NTQzNjAzMl5BMl5BanBnXkFtZTcwMzIxODcwNg@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg",
+			"description":"With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"harry potter: the sorcerers stone",
+			"video_src":"http://25.70.61.84/files/movies/harry%20potter%20philosopher/Harrypotterphilosophersstone-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BZmM2NzE5OGQtYTNjOC00NjM0LWE2YWQtMzFkZWVjMDg2ODdlXkEyXkFqcGdeQXVyMjMxMDgyNzU@._V1_SY1000_CR0,0,1529,1000_AL_.jpg",
+			"description":"On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant, tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry. In his first year of magical education, Harry tackles a fully grown mountain troll, learns to play Quidditch, and participates in a thrilling 'live' game of chess.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"harry potter: the prisoners of azkaban",
+			"video_src":"http://25.70.61.84/files/movies/harry%20potter%20prisoners/Harrypotterprisonersofazkaban-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTgzMDE5OTk1MF5BMl5BanBnXkFtZTcwNjAxNjUwNA@@._V1_SY1000_CR0,0,1502,1000_AL_.jpg",
+			"description":"It's Harry's third year at Hogwarts; not only does he have a new 'Defense Against the Dark Arts' teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"harry potter: the chamber of secrets",
+			"video_src":"http://25.70.61.84/files/movies/harrypotterchamberofsecrets/Harrypotterchamberofsecrets-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMjI1MDczMzQ1N15BMl5BanBnXkFtZTcwMTU1MTcwNA@@._V1_SY1000_CR0,0,1545,1000_AL_.jpg",
+			"description":"An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.",
+			"genre":"fantasy,drama"
+		},
+		{
+			"name":"indiana jones: and the last crusade",
+			"video_src":"http://25.70.61.84/files/movies/indiana%20jones%20last%20crusade/Indianalastcrusade-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"http://paperlief.com/images/indiana-jones-and-the-last-crusade-wallpaper-4.jpg",
+			"description":"In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against Adolf Hitler's Nazis again to stop them obtaining its powers.",
+			"genre":"adventure,action,fantasy"
+		},
+		{
+			"name":"indiana jones: and the temple of doom",
+			"video_src":"http://25.70.61.84/files/movies/indiana%20temple%20of%20doom/Indianatempleofdoom-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMGI1NTk2ZWMtMmI0YS00Yzg0LTljMzgtZTg4YjkyY2E5Zjc0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://images2.alphacoders.com/532/532378.jpg",
+			"description":"In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.",
+			"genre":"adventure,action,fantasy"
+		},
+		{
+			"name":"napoleon dynamite",
+			"video_src":"http://25.70.61.84/files/movies/napoleon%20dynamite/napdyn.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BNjYwNTA3MDIyMl5BMl5BanBnXkFtZTYwMjIxNjA3._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BY2MwYTViYmYtY2QwZS00Nzk4LWE0NTEtYTI0MGU5MTFjYWQyXkEyXkFqcGdeQXVyNDAxOTExNTM@._V1_.jpg",
+			"description":"Preston, Idaho's most curious resident, Napoleon Dynamite, lives with his grandma and his 32-year-old brother (who cruises chat rooms for ladies) and works to help his best friend, Pedro, snatch the Student Body President title from mean teen Summer Wheatley.",
+			"genre":"comedy"
+		},
+		{
+			"name":"paul blart mall cop 2",
+			"video_src":"http://25.70.61.84/files/movies/mall%20cop%202/Paulblart2-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTM2NzA1MzE1NF5BMl5BanBnXkFtZTcwOTYyNDIzMg@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://images3.alphacoders.com/608/608219.jpg",
+			"description":"After six years of keeping our malls safe, Paul Blart has earned a well-deserved vacation. He heads to Vegas with his teenage daughter before she heads off to college. But safety never takes a holiday and when duty calls, Blart answers.",
+			"genre":"comedy"
+		},
+		{
+			"name":"predator 1987",
+			"video_src":"http://25.70.61.84/files/movies/predator%201987/Predator1987-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BY2QwYmFmZTEtNzY2Mi00ZWMyLWEwY2YtMGIyNGZjMWExOWEyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://hd-report.com/wp-content/uploads/2018/06/predator-20th-century-fox.jpg",
+			"description":"A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
+			"genre":"scifi,thriller"
+		},
+		{
+			"name":"it 1990",
+			"video_src":"http://25.70.61.84/files/movies/it%201990/It1990-1.m4v",
+			"poster_src":"https://resizing.flixster.com/lHIeM3W6P5nxvuVurU1SNt-B5zg=/206x305/v1.bTsxMTI5MjU2NjtqOzE4MDg1OzEyMDA7MjI1MDszMDAw",
+			"promo_src":"https://i.ytimg.com/vi/1b0w38cDShE/maxresdefault.jpg",
+			"description":"In 1960, seven pre-teen outcasts fight an evil demon who poses as a child-killing clown. Thirty years later, they reunite to stop the demon once and for all when it returns to their hometown.",
+			"genre":"thriller"
+		},
+		{
+			"name":"south park: bigger longer and uncut",
+			"video_src":"http://25.70.61.84/files/movies/south%20park%20movie/Southpark%20Bigger,%20Longer,%20and%20Uncut.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BOGE0ZWI0YzAtY2NkZi00YjkyLWIzYWEtNTJmMzJjODllNjdjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BM2I0M2Y5OTgtNmUyNC00N2E2LTk1Y2EtZjhkNGI4YmUyMDVhXkEyXkFqcGdeQXVyNDIzNDExOQ@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+			"description":"When Cartman and his friends go see an R rated movie, they start cursing and their parents think that Canada is to blame.",
+			"genre":"comedy"
+		},
+		{
+			"name":"spider-man: into the spider-verse",
+			"video_src":"http://25.70.61.84/files/movies/spider-man%20intro%20the%20spider-Verse/Spider-Man%20Into%20the%20Spider-Verse.mp4",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://www.rollingstone.com/wp-content/uploads/2018/12/spiderman-into-the-spider-verse.jpg",
+			"description":"Miles Morales is a New York teen struggling with school, friends and, on top of that, being the new Spider-Man. When he comes across Peter Parker, the erstwhile saviour of New York, in the multiverse, Miles must train to become the new protector of his city.",
+			"genre":"action,animated,comedy"
+		},
+		{
+			"name":"the lego movie",
+			"videosrc":"http://25.70.61.84/files/movies/the%20lego%20movie%202/Thelogomovie-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://images5.alphacoders.com/491/thumb-1920-491196.jpg",
+			"description":"An ordinary LEGO construction worker, thought to be the prophesied as 'special', is recruited to join a quest to stop an evil tyrant from gluing the LEGO universe into eternal stasis.",
+			"genre":"comedy,animated"
+		},
+		{
+			"name":"the lego movie 2",
+			"video_src":"http://25.70.61.84/files/movies/the%20lego%20movie%201/Thelegomovie2-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMTkyOTkwNDc1N15BMl5BanBnXkFtZTgwNzkyMzk3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://www.lego.com/r/www/r/service/-/media/service/service%202015/device%20guide/move%20maker/android%20-%20splash%20screen%20copy%202.png?l.r2=-1373144833",
+			"description":"It's been five years since everything was awesome and the citizens are facing a huge new threat: Lego Duplo invaders from outer space, wrecking everything faster than they can rebuild.",
+			"genre":"comedy,animated"
+		},
+		{
+			"name":"wall-e",
+			"video_src":"http://25.70.61.84/files/movies/wall-e/Walle-1.m4v",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+			"promo_src":"https://wallpapercave.com/wp/wp1816258.jpg",
+			"description":"In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+			"genre":"comedy,animated"
+		},
+    {
+      "name":"deadpool 2",
+      "video_src":"http://25.70.61.84/files/movies/deadpool%202/Deadpool.2.2018.720p.BluRay.x264-%5bYTS.AM%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY268_CR43,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMzEyMzQyNTIzMV5BMl5BanBnXkFtZTgwOTQyMDgzNDM@._V1_SY1000_CR0,0,1480,1000_AL_.jpg",
+      "description":"Foul-mouthed mutant mercenary Wade Wilson (AKA. Deadpool), brings together a team of fellow mutant rogues to protect a young boy with supernatural abilities from the brutal, time-traveling cyborg, Cable.",
+      "genre":"action,adventure,comedy,recently"
+    },
+    {
+      "name":"dunkirk",
+      "video_src":"http://25.70.61.84/files/movies/dunkirk%202017%20%5bYTS.AG%5d/Dunkirk.2017.720p.BluRay.x264-%5bYTS.AG%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTUwMjQyNDU2Ml5BMl5BanBnXkFtZTgwODgyNDY4MjI@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "description":"Evacuation of Allied soldiers from the British Empire, and France, who were cut off and surrounded by the German Army from the beaches and harbor of Dunkirk, France, between May 26- June 04, 1940, during Battle of France in World War II.",
+      "genre":"action,drama,recently"
+    },
+    {
+      "name":"from dusk till dawn",
+      "video_src":"http://25.70.61.84/files/movies/from%20dusk%20till%20dawn/From.Dusk.Till.Dawn.1996.720p.BrRip.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BZjk3YmZhMDAtOWUzMS00YjE5LTkxNzAtY2I1NGZjMDA2ZTk0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BYzhkOTE2NTctOTM3Ny00MTU4LWFmYjUtYWE1YmY5MTMyOTZjXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg",
+      "description":"Two fugitive brothers at gunpoint get an ex-minister and his two children to take them accross the border into Mexico. They drive to a Mexican biker bar to rendevous with other crooks. While at the bar, a few unusual things happen.",
+      "genre":"horror,action,comedy,recently"
+    },
+    {
+      "name":"gone girl",
+      "video_src":"http://25.70.61.84/files/movies/gone%20girl/Gone.Girl.2014.720p.BluRay.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BYjNlNTUyZWQtZjlhOS00YmExLTg4ODItYjg2MjlmMTcxZjU4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
+      "description":"With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+      "genre":"drama,crime,recently"
+    },
+    {
+      "name":"green book",
+      "video_src":"http://25.70.61.84/files/movies/green%20book/Green%20Book%202018%20720p%20WEB-DL-1XBET.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTU0MzIyODk1OF5BMl5BanBnXkFtZTgwNTM2MjIxNjM@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "description":"A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.",
+      "genre":"comedy,recently"
+    },
+    {
+      "name":"hell or high water",
+      "video_src":"http://25.70.61.84/files/movies/hell%20or%20high%20water/Hell.or.High.Water.2016.720p.BRRip.x264.AAC-ETRG.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMjM1MTkxNjg1NF5BMl5BanBnXkFtZTgwMzUzNjc3OTE@._V1_SY1000_SX1500_AL_.jpg",
+      "description":"A divorced father and his ex-con older brother resort to a desperate scheme in order to save their family's ranch in West Texas.",
+      "genre":"action,drama,recently"
+    },
+    {
+      "name":"kill bill vol 1",
+      "video_src":"http://25.70.61.84/files/movies/kill%20bill%20vol%201/Kill.Bill.Vol.1.2003.1080p.BrRIp.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTUwNzY4ODY3OV5BMl5BanBnXkFtZTgwNDc4MzA4MTI@._V1_.jpg",
+      "description":"After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+      "genre":"action,thriller,recently"
+    },
+    {
+      "name":"kubo and the two strings",
+      "video_src":"http://25.70.61.84/files/movies/kubo%20and%20the%20two%20strings/Kubo%20And%20The%20Two%20Strings%202016%201080P%20Bluray%20X264%20Dtsjyk-2-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMjA2Mzg2NDMzNl5BMl5BanBnXkFtZTgwMjcwODUzOTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTkxMjg1ODM5N15BMl5BanBnXkFtZTgwMTg5OTM5ODE@._V1_SX1777_CR0,0,1777,739_AL_.jpg",
+      "description":"A young boy named Kubo must locate a magical suit of armour worn by his late father in order to defeat a vengeful spirit from the past.",
+      "genre":"animated,action,adventure,recently"
+    },
+    {
+      "name":"logan",
+      "video_src":"http://25.70.61.84/files/movies/logan/Logan2017dvdripxvidac3evo-3-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BYjRlZTVkZGItMTA4YS00MDAyLThkZGEtMGUwYTYwNzNhODM3XkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SY1000_CR0,0,1502,1000_AL_.jpg",
+      "description":"In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+      "genre":"action,scifi,crime,recently"
+    },
+    {
+      "name":"mad max fury road",
+      "video_src":"http://25.70.61.84/files/movies/mad%20max%20fury%20road/Mad.Max.Fury.Road.2015.1080p.BluRay.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMjQwODI4MTE4OV5BMl5BanBnXkFtZTgwNzQ3NTE2NTE@._V1_SX1777_CR0,0,1777,744_AL_.jpg",
+      "description":"In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "genre":"scifi,action,adventure,recently"
+    },
+    {
+      "name":"nacho libre",
+      "video_src":"http://25.70.61.84/files/movies/nacho%20libre/Nacho.Libre.2006.1080p.BluRay.x264.GSFTX.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BN2ZkNDgxMjMtZmRiYS00MzFkLTk5ZjgtZDJkZWMzYmUxYjg4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
+      "promo_src":"https://i.ytimg.com/vi/1RZmmdmHqbU/maxresdefault.jpg",
+      "description":"Berated all his life by those around him, a monk follows his dream and dons a mask to moonlight as a Luchador (Mexican wrestler).",
+      "genre":"comedy,recently"
+    },
+    {
+      "name":"nancy drew and the hidden staircase",
+      "video_src":"http://25.70.61.84/files/movies/nancy%20drew%20and%20the%20hidden%20staircase/Nancy%20Drew%20And%20The%20Hidden%20Staircase20191080pwebdlh264ac3evo-4-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BYWRlOTRjMTQtNzI2My00ZjA0LTg3M2YtOWM0Y2U4YmZhODEzXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SY1000_SX675_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMzhmYTlkNDMtOGMxZC00ZjJiLTg3NjgtYTgxOWIwNWUyNzYyXkEyXkFqcGdeQXVyMTM2MTAzMg@@._V1_SX1777_CR0,0,1777,956_AL_.jpg",
+      "description":"A bit of an outsider struggling to fit into her new surroundings, Nancy and her pals set out to solve a mystery, make new friends, and establish their place in the community.",
+      "genre":"drama,crime,recently"
+    },
+    {
+      "name":"nightcrawler",
+      "video_src":"http://25.70.61.84/files/movies/nightcrawler/Nightcrawler.2014.720p.BluRay.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BN2U1YzdhYWMtZWUzMi00OWI1LWFkM2ItNWVjM2YxMGQ2MmNhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BYjExODhmZGItMGM1Yi00YWU0LTgyNjAtOWFjZDhlYWVhODQ4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "description":"When Louis Bloom, a con man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story.",
+      "genre":"thriller,drama,recently"
+    },
+    {
+      "name":"reservoir dogs",
+      "video_src":"http://25.70.61.84/files/movies/reservoir%20dogs%20/Reservoir%20Dogs.1992.BluRay.720p.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMjA0MDc5MTQ3OF5BMl5BanBnXkFtZTgwOTkxOTIwMjE@._V1_SY1000_CR0,0,1556,1000_AL_.jpg",
+      "description":"When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+      "genre":"crime,drama,thriller,recently"
+    },
+    {
+      "name":"the dark knight rises",
+      "video_src":"http://25.70.61.84/files/movies/the%20dark%20knight%20rises/The.Dark.Knight.Rises.2012.720p.BluRay.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTYxOTk0NjAwNF5BMl5BanBnXkFtZTcwMDU2OTcxNw@@._V1_SY1000_CR0,0,1542,1000_AL_.jpg",
+      "description":"Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
+      "genre":"action,thriller,recently"
+    },
+    {
+      "name":"the intouchables",
+      "video_src":"http://25.70.61.84/files/movies/the%20intouchables/The%20Intouchables%202011%20720p%20BluRay%20x264%20French%20AAC%20-%20Ozlem.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTYyNjgzMjM0NV5BMl5BanBnXkFtZTcwMzAyMjkyNw@@._V1_SY1000_CR0,0,1511,1000_AL_.jpg",
+      "description":"After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+      "genre":"comedy,recently"
+    },
+    {
+      "name":"the disaster artist",
+      "video_src":"http://25.70.61.84/files/movies/the%20disaster%20artist/Thedisasterartist2017dvdscrxvidac3hqhivecm8%5bEtmovies%5d-5-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BOGNkMzliMGMtMDI5Ni00OTZkLTgyMTYtNzk5ZTY1NjVhYjVmXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SY1000_SX675_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BOGE4OGZhMmUtZWNmOS00NTA1LWE1OTMtNzc3M2IyOTE2ODhhXkEyXkFqcGdeQXVyNDIzNDExOQ@@._V1_.jpg",
+      "description":"When Greg Sestero, an aspiring film actor, meets the weird and mysterious Tommy Wiseau in an acting class, they form a unique friendship and travel to Hollywood to make their dreams come true.",
+      "genre":"comedy,recently"
+    },
+    {
+      "name":"the mule",
+      "video_src":"http://25.70.61.84/files/movies/the%20mule/Themule2018hdripxvidac3evo-6-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTc1OTc5NzA4OF5BMl5BanBnXkFtZTgwOTAzMzE2NjM@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BZjFmNTAyMjEtNDIwNi00OTA4LTgzOWItNjY2Yzc5MWYwZTE2XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
+      "description":"A 90-year-old horticulturist and Korean War veteran turns drug mule for a Mexican cartel.",
+      "genre":"crime,thriller,recently"
+    },
+    {
+      "name":"thor ragnarok",
+      "video_src":"http://25.70.61.84/files/movies/thor%20ragnarok/Thor.Ragnarok.2017.720p.BluRay.x264-%5bYTS.AM%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTU5ODg1MDUzMV5BMl5BanBnXkFtZTgwMDMxMjgwNDI@._V1_SY1000_CR0,0,1502,1000_AL_.jpg",
+      "description":"Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+      "genre":"action,adventure,comedy,recently"
+    },
+    {
+      "name":"trainspotting",
+      "video_src":"http://25.70.61.84/files/movies/trainspotting/Trainspotting.1996.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMzA5Zjc3ZTMtMmU5YS00YTMwLWI4MWUtYTU0YTVmNjVmODZhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_SX675_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTMzZTNjZGEtNjVlMy00YmYyLWI0MTYtNzY0Y2Y4OTcwZTg3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY1000_CR0,0,1449,1000_AL_.jpg",
+      "description":"Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+      "genre":"drama,recently"
+    },
+    {
+      "name":"triple threat",
+      "video_src":"http://25.70.61.84/files/movies/triple%20threat/Triple.Threat.2019.720p.WEBRip.x264-%5bYTS.AM%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BYTY1MjRhYmYtZDg4Yy00ZWRiLWIwYzktZThkY2E0YjZlNjgxXkEyXkFqcGdeQXVyMTc3MjY3NTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BNzkwZmQxMzctMDIyOC00MjBiLWFjNDYtNWEwMWQ0ZjhjMDBhXkEyXkFqcGdeQXVyOTk1NTY2MzQ@._V1_.jpg",
+      "description":"A hit contract is taken out on a billionaires daughter intent on bringing down a major crime syndicate. A down and out team of mercenaries must take on a group of professional assassins and stop them before they kill their target.",
+      "genre":"action,thriller,recently"
+    },
+    {
+      "name":"war for the planet of the apes",
+      "video_src":"http://25.70.61.84/files/movies/war%20for%20the%20planet%20of%20the%20apes/War.For.The.Planet.Of.The.Apes.2017.720p.BluRay.x264-%5bYTS.AG%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BNDNmYTQzMDEtMmY0MS00OTNjLTk4MjItMDZhMzkzOGI3MzA0XkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMDU2NmRmMjktZjg3Yi00NDM1LTg3YmYtMWJlYzE5ZGI2NDE5XkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SX1777_CR0,0,1777,840_AL_.jpg",
+      "description":"After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind.",
+      "genre":"action,adventure,recently"
+    },
+    {
+      "name":"wonder woman",
+      "video_src":"http://25.70.61.84/files/movies/wonder%20woman/Wonderwoman2017720pblurayx264vppv-8-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_SX675_AL_.jpg",
+      "promo_src":"",
+      "description":"When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+      "genre":"action,adventure,fantasy,recently"
+    },
+    {
+      "name":"wonder",
+      "video_src":"http://25.70.61.84/files/movies/wonder/Wonder2017hdripxvidetrg-7-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BYjFhOWY0OTgtNDkzMC00YWJkLTk1NGEtYWUxNjhmMmQ5ZjYyXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BZTA2MGJlOGEtOThmNy00ZWQ2LWEyNmYtZmQyNDdjMWQxN2IyXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SY1000_CR0,0,1503,1000_AL_.jpg",
+      "description":"Based on the New York Times bestseller, this movie tells the incredibly inspiring and heartwarming story of August Pullman, a boy with facial differences who enters the fifth grade, attending a mainstream elementary school for the first time.",
+      "genre":"drama,recently"
+    },
+    {
+      "name":"coco",
+      "video_src":"http://25.70.61.84/files/movies/coco/Coco.2017.720p.BluRay.x264-%5bYTS.AG%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY268_CR3,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTk1Nzg0MDc1MF5BMl5BanBnXkFtZTgwODEzMjMyNDM@._V1_SX1777_CR0,0,1777,743_AL_.jpg",
+      "description":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+      "genre":"animated,adventure,comedy,recently"
+    },
+    {
+      "name":"captain fantastic",
+      "video_src":"http://25.70.61.84/files/movies/captain%20fantastic/Captain.Fantastic.2016.720p.BRRip.x264.AAC-ETRG.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMjE5OTM0OTY5NF5BMl5BanBnXkFtZTgwMDcxOTQ3ODE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMWFlOTIwYTktMDEyNy00YTQ1LWI5MTctYTM1MjI2MTkxZDMzXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "description":"In the forests of the Pacific Northwest, a father devoted to raising his six kids with a rigorous physical and intellectual education is forced to leave his paradise and enter the world, challenging his idea of what it means to be a parent.",
+      "genre":"comedy,drama,recently"
+    },
+    {
+      "name":"bohemian rhapsody",
+      "video_src":"http://25.70.61.84/files/movies/bohemian%20rhapsody/Bohemian.Rhapsody.2018.720p.WEBRip.x264-%5bYTS.AM%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTA2NDc3Njg5NDVeQTJeQWpwZ15BbWU4MDc1NDcxNTUz._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTNkN2Q1YTctM2RmYS00ZTQxLTk4ZjgtZjE4NDRlODA4NzA1XkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_.jpg",
+      "description":"The story of the legendary rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).",
+      "genre":"drama,recently"
+    },
+    {
+      "name":"black panther",
+      "video_src":"http://25.70.61.84/files/movies/black%20panther/Black.Panther.2018.720p.BluRay.x264-%5bYTS.ME%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTUyMDQzODM4MV5BMl5BanBnXkFtZTgwNzM3MDM5NDM@._V1_SX1777_CR0,0,1777,937_AL_.jpg",
+      "description":"T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+      "genre":"action,adventure,scifi,recently"
+    },
+    {
+      "name":"beetlejuice",
+      "video_src":"http://25.70.61.84/files/movies/bettlejuice/Beetlejuice.1988.1080p.BluRay.x264.anoXmous_.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BNjQ3OTkwNTk3N15BMl5BanBnXkFtZTgwNjg2Mjk3NjM@._V1_SY1000_CR0,0,1481,1000_AL_.jpg",
+      "description":"The spirits of a deceased couple are harassed by an unbearable family that has moved into their home, and hire a malicious spirit to drive them out.",
+      "genre":"comedy,fantasy,recently"
+    },
+    {
+      "name":"beauty and the beast",
+      "video_src":"http://25.70.61.84/files/movies/beauty%20and%20the%20beast%20/Beauty.And.The.Beast.2017.720p.BluRay.x264-%5bYTS.AG%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTUwNjUxMTM4NV5BMl5BanBnXkFtZTgwODExMDQzMTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMTcxOTUyNDUyNV5BMl5BanBnXkFtZTgwNDcyMDg2MTI@._V1_.jpg",
+      "description":"A selfish prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a beautiful young woman he keeps prisoner.",
+      "genre":"fantasy,recently"
+    },
+    {
+      "name":"beautiful boy",
+      "video_src":"http://25.70.61.84/files/movies/beautiful%20boy/Beautiful.Boy.2018.1080p.WEBRip.x264-%5bYTS.AM%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BNjNhNjVjZDQtMzRhMS00YmI2LTkxZmEtMDdkMWU3OWQ2NjNmXkEyXkFqcGdeQXVyODE1MjMyNzI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BODE2ODI2MzI5MF5BMl5BanBnXkFtZTgwMjI3MzkyNjM@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "description":"Based on the best-selling pair of memoirs from father and son David and Nic Sheff, Beautiful Boy chronicles the heartbreaking and inspiring experience of survival, relapse, and recovery in a family coping with addiction over many years.",
+      "genre":"drama,recently"
+    },
+    {
+      "name":"the dark knight",
+      "video_src":"http://25.70.61.84/files/movies/the%20dark%20knight/Batman.The.Dark.Knight.2008.1080p.BluRay.x264.YIFY.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMjA5ODU3NTI0Ml5BMl5BanBnXkFtZTcwODczMTk2Mw@@._V1_SX1777_CR0,0,1777,756_AL_.jpg",
+      "description":"When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genre":"action,crime,recently"
+    },
+    {
+      "name":"baby driver",
+      "video_src":"http://25.70.61.84/files/movies/baby%20driver/Baby.Driver.2017.720p.BRRip.x264.AAC-Ozlem%5bETRG%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMjM3MjQ1MzkxNl5BMl5BanBnXkFtZTgwODk1ODgyMjI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BNDI4MjU2MDIwM15BMl5BanBnXkFtZTgwMTYyNjM2MjI@._V1_SY1000_CR0,0,1499,1000_AL_.jpg",
+      "description":"After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+      "genre":"action,crime,recently"
+    },
+    {
+      "name":"a quiet place",
+      "video_src":"http://25.70.61.84/files/movies/a%20quiet%20place/A.Quiet.Place.2018.720p.WEBRip.x264-%5bYTS.AM%5d.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BNTk3NDYyMDE0NF5BMl5BanBnXkFtZTgwOTA1MzQxNTM@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "description":"In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+      "genre":"drama,thriller,recently"
+    },
+    {
+      "name":"the great showman",
+      "video_src":"http://25.70.61.84/files/movies/the%20great%20showman/Thegreatestshowman2017720pblurayhevcx265rmteam-1-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_UY268_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BZGNjOGViNTMtMGZiYS00OTYwLTlkODUtYzM5MmJiNGE5ODJlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX1777_CR0,0,1777,997_AL_.jpg",
+      "description":"Celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.",
+      "genre":"drama,recently"
+    },
+    {
+      "name":"the hateful eight",
+      "video_src":"http://25.70.61.84/files/movies/the%20hateful%20eight/Thehatefuleight2015720pblurayx265shaanig-1-2019-03-26.mp4",
+      "poster_src":"https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "promo_src":"https://m.media-amazon.com/images/M/MV5BMjAzODUyMzU4M15BMl5BanBnXkFtZTgwMzA5MDM1NjE@._V1_.jpg",
+      "description":"In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",
+      "genre":"crime,recently"
+    }
+	],
+	"tv": [
+		{
+			"name":"adventure time",
+			"poster_src":"https://m.media-amazon.com/images/M/MV5BMjE2MzE1MDI2M15BMl5BanBnXkFtZTgwNzUyODQxMDE@._V1_UY268_CR7,0,182,268_AL_.jpg",
+			"promo_src":"https://m.media-amazon.com/images/M/MV5BMTY4MDMxODg3NF5BMl5BanBnXkFtZTgwODYyNzg5MTI@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+			"description":"A 12-year-old boy and his best friend, wise 28-year-old dog with magical powers, go on a series of surreal adventures with each other.",
+			"genre":"animation,adventure",
+			"seasons": [
+				{
+					"name":"season 1",
+					"episodes":"27"
+				},
+				{
+					"name":"season 2",
+					"episodes":"26"
+				},
+				{
+					"name":"season 3",
+					"episodes":"26"
+				},
+				{
+					"name":"season 4",
+					"episodes":"26"
+				},
+				{
+					"name":"season 5",
+					"episodes":"52"
+				}
+			]
+		}
+	]
+}
