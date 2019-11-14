@@ -15,19 +15,12 @@ Welcome to my personal git! Feel free to take a look around theres:
 _Everything I've ever wanted to make really_.
 
 ### Applications / Development
-    Currently I'm working on multiple personal application projects. Most of 
-    them are early stages of planning, but some have working prototypes, 
-    design, etc. Most of them are at least slightly thought out.
+Currently I'm working on multiple personal application projects. Most of them are early stages of planning, but some have working prototypes, design, etc. Most of them are at least slightly thought out.
 
 #### What do I make my applications in?
-    Object oriented is my thing! Currently I know Java, C++, C, and JS along 
-    with Electron released by Github. All my Java and C++ endevours have been 
-    console application based projects, but I have experience with the electron 
-    API in making GUI based applications with JS, and Node.
+Object oriented is my thing! Currently I know Java, C++, C, and JS along with Electron released by Github. All my Java and C++ endevours have been console application based projects, but I have experience with the electron API in making GUI based applications with JS, and Node.
 
-    I also have extensive knowledge in the Construct 2 web based game engine and 
-    have been making games with [website]http://git.dumbluckarts.com for 2 years 
-    doing what I love.
+I also have extensive knowledge in the Construct 2 web based game engine and have been making games with [website]http://git.dumbluckarts.com for 2 years doing what I love.
 
 Currently my application, websites, games, etc houses are:
 * https://github.com/nelsondev/tron/tree/ctron
