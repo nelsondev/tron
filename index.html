@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline', media-src 'unsafe-inline'"> -->
+    <title>Man.ny Console</title>
+    <style type="text/css">
+    ::-webkit-scrollbar {
+      width: 2px;
+      height: 2px;
+    }
+    ::-webkit-scrollbar-button {
+      width: 0px;
+      height: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #e1e1e1;
+      border: 0px none #ffffff;
+      border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb:active {
+      background: #000000;
+    }
+    ::-webkit-scrollbar-track {
+      background: #666666;
+      border: 0px none #ffffff;
+      border-radius: 50px;
+    }
+    ::-webkit-scrollbar-track:hover {
+      background: #666666;
+    }
+    ::-webkit-scrollbar-track:active {
+      background: #333333;
+    }
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+    </style>
+    <style>
+    :root {
+        --primary: #1f1f1f;
+        --white: #fff;
+        --gray: #9C9C9C;
+        --blue: #64b5f6;
+        --light-blue: #9be7ff;
+        --brown: #6d4c41;
+        --red: #b71c1c;
+        --purple: #ab47bc;
+        --green: #8ff442;
+        --orange: #ff9800;
+    }
+
+    body {
+        background-color: var(--primary);
+        overflow-x: hidden;
+        margin: 5px;
+        display: block;
+        font-family: monospace;
+        margin-bottom: 25px;
+    }
+
+    p,pre {
+      display: block;
+      font-family: monospace;
+      white-space: pre;
+      margin: 0;
+    }
+
+    div {
+      color: var(--white);
+      overflow-wrap: wrap-text;
+    }
+
+    .text-white {
+      color: var(--white);
+    }
+
+    .text-gray {
+      color: var(--gray);
+    }
+
+    .text-blue {
+      color: var(--blue);
+    }
+
+    .text-light-blue {
+      color: var(--light-blue);
+    }
+
+    .text-brown {
+      color: var(--brown);
+    }
+
+    .text-red {
+      color: var(--red);
+    }
+
+    .text-purple {
+      color: var(--purple);
+    }
+
+    .text-green {
+      color: var(--green);
+    }
+
+    .text-orange {
+      color: var(--orange);
+    }
+
+    .position-fixed {
+      position: fixed;
+    }
+
+    .input-text {
+      width: 100vw;
+      bottom: 0; left: 0;
+      background: transparent;
+      border: 0;
+      outline: none;
+      padding: 5px;
+      display: block;
+      font-family: monospace;
+    }
+
+    </style>
+</head> 
+<!-- nelson.m -->
+<body>
+
+    <!-- mansole output and input -->
+    <div id="mansole-output"></div>
+    <input type="text" class="input-text position-fixed text-white" id="mansole-input">
+
+    <!-- import all game audio -->
+    <audio id="song-titlescreen" src="./audio/songs/titlescreen.wav" volume="1"></audio>
+    <audio id="song-titlescreen-boosted" src="./audio/songs/titlescreen.wav" volume="1"></audio>
+    <audio id="sound-door-close" src="./audio/sounds/doorclose.ogg" volume="1"></audio>
+    <audio id="sound-door-knock" src="./audio/sounds/doorknock.ogg" volume="1"></audio>
+    <audio id="sound-invalid" src="./audio/sounds/invalid.wav" volume="1"></audio>
+    <audio id="sound-machine-noise" src="./audio/sounds/machinenoise.ogg" volume="1"></audio>
+    <audio id="sound-rain" src="./audio/sounds/rain1.WAV" volume="1"></audio>
+    <audio id="sound-rain-thunder" src="./audio/sounds/rainthunder1.WAV" volume="1"></audio>
+    <audio id="sound-thunder1" src="./audio/sounds/thunder1.WAV" volume="1"></audio>
+    <audio id="sound-thunder2" src="./audio/sounds/thunder2.WAV" volume="1"></audio>
+    <audio id="sound-volume" src="./audio/sounds/volume.wav" volume="1"></audio>
+    <audio id="sound-zipup" src="./audio/sounds/zipup.wav" volume="1"></audio>
+    <audio id="sound-orb" src="./audio/sounds/orb.ogg" volume="1"></audio>
+
+    <script>
+        require('./renderer.js');
+    </script>
+</body>
+
+</html>
