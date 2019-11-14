@@ -4,12 +4,12 @@ I pride myself on the problems programmers face in their every day lives. It's W
 ### Contents
 
 Welcome to my personal git! Feel free to take a look around theres:
-* minecraft game server modifications
-* c++ console applications
-* games
-* pictures
-* websites
-* java applications
+* minecraft game server modifications.
+* c++ console applications.
+* games.
+* pictures.
+* websites.
+* java applications.
 * and scratch files / early professional endeavors.
 
 _Everything I've ever wanted to make really_.
