@@ -17,6 +17,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Mjarket extends JavaPlugin implements Listener {
 
     private static Government government;
+
     public static final int WARP_PRICE = 5;
     public static final int WARP_SET_PRICE = 300;
     public static final int PACK_CUSTOM_PRICE = 3200;
